@@ -196,53 +196,53 @@ Part 1b - Step 2: Assignment
         c) pick properties that can eventually be represented with 
         'int float double bool char std::string'.
 
-Thing 1)
+Thing 1) House
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of bedrooms
+    2) number of bathrooms
+    3) size of garage
+    4) number of floors
+    5) type of flooring
 3 things it can do:
-    1)
-    2)
-    3)
+    1) protect family
+    2) place to sleep
+    3) clean yourself
 
-Thing 2)
+Thing 2) Computer
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) amount of storage
+    2) amount of memory
+    3) size of screen
+    4) type of keyboard
+    5) operating system
 3 things it can do:
-    1)
-    2)
-    3)
+    1) write programs
+    2) play games
+    3) do taxes
 
-Thing 3)
+Thing 3) Guitar
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of strings
+    2) type of fretboard
+    3) type of wood
+    4) number of pickups
+    5) number of tone selectors
 3 things it can do:
-    1)
-    2)
-    3)
+    1) play chords
+    2) play notes
+    3) rock out
 
-Thing 4)
+Thing 4) Movie
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of actors
+    2) length of film
+    3) category of file
+    4) omount of profit
+    5) time to produce
 3 things it can do:
-    1)
-    2)
-    3)
+    1) entertain people
+    2) charge to watch
+    3) tell a story
 */
 
 /*
