@@ -83,51 +83,51 @@ Main Object: Car Interior
         Name 4 nouns you'll find on the [Sub Object]
             1) paddle shifters
             2) 'cruise control' controls
-            3) 
-            4) 
+            3) horn
+            4) turn signal
         Name 2 actions that the [Sub Object] can do:
             1) adjust cruise control settings.
-            2)
+            2) change gears
         
     Sub Object: Instrument Cluster
         Name 4 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
-            4)
+            1) gear indicator
+            2) tachometer
+            3) speed indictor
+            4) temperature sensor
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1) view current gear
+            2) view RPM
+            3) view speed
     
     Sub Object: Environment Controls
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1) air conditioning controls
+            2) seat warmer
+            3) defroster
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1) set air temperature
+            2) set seat temerature
+            3) defrost windows
 
     Sub Object: Infotainment System
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1) sound system
+            2) navigation screen
+            3) input selector
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1) choose radio station
+            2) get directions
+            3) change between stereo, and CD
 
     Sub Object: Seat 
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1) leather
+            2) bolsters
+            3) adjustment controls
         Name 2 actions that the [Sub Object] can do:
-            1)
-            2)
+            1) change seating position
+            2) not slide around
 */
 
 /*
