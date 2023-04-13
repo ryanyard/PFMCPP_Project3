@@ -365,17 +365,17 @@ Define an object that is made of 5 sub-objects.
     These 5 sub-objects will not be defined using Primitives, but instead will be their own UDTs 
     you'll define these 5 sub-objects in Part 1d.
 
-Thing 10)
+Thing 10) Nintendo
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Display
+    2) Storage
+    3) CPU
+    4) Controller
+    5) Games
 3 things it can do:
-    1)
-    2)
-    3)
+    1) play games
+    2) connect to internet
+    3) buy games
  */
 
  /*
