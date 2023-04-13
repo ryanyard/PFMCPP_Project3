@@ -236,8 +236,8 @@ Thing 4) Movie
 5 properties:
     1) number of actors
     2) length of film
-    3) category of file
-    4) omount of profit
+    3) category of film
+    4) amount of profit
     5) time to produce
 3 things it can do:
     1) entertain people
@@ -318,6 +318,34 @@ example:
         Brightness (double)
         area in cm2 (int)
         brand (std::string)
+
+    House:
+        number of bedrooms (int)
+        number of bathrooms (int)
+        size of garage (double)
+        number of floors (int)
+        type of flooring (std::string)
+
+    Computer:
+        amount of storage (int)
+        amount of memory (int)
+        size of screen (float)
+        type of keyboard (std::string)
+        operating system (std::string)
+
+    Guitar:
+        number of strings (int)
+        type of fretboard (std::string)
+        type of wood (std::string)
+        number of pickups (int)
+        number of tone selectors (int)
+
+    Movie:
+        number of actors (int)
+        length of film (double)
+        category of film (std::string)
+        amount of profit (double)
+        time to produce (double)
 */
 
 /*
