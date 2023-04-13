@@ -462,65 +462,78 @@ example:
     You will need to provide 5 properties and 3 member functions of that Engine object in plain English.
     Remember to pick properties that can be represented with 'int float double bool char std::string'.
 
-Thing 5)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
 
-Thing 6)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+Thing 5) Display
+5 properties: 
+    1) Pixels
+    2) Power
+    3) Brightness
+    4) Width
+    5) Height
 3 things it can do:
-    1)
-    2)
-    3)
+    1) generate graphics
+    2) consume power
+    3) change brightness
 
-Thing 7)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+Thing 6) Storage
+5 properties: 
+    1) Capacity
+    2) Power
+    3) Speed
+    4) Reliability
+    5) Longevity
 3 things it can do:
-    1)
-    2)
-    3)
+    1) read files
+    2) write files
+    3) copy files
 
-Thing 8)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+Thing 7) CPU
+5 properties: 
+    1) Speed
+    2) Power
+    3) Operations
+    4) Interfaces
+    5) Cores
 3 things it can do:
-    1)
-    2)
-    3)
+    1) calculate
+    2) consume power
+    3) produce heat
 
-Thing 9)
+Thing 8) Controller
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Buttons
+    2) Joysticks
+    3) Paddles
+    4) Connections
+    5) Interaction
 3 things it can do:
-    1)
-    2)
-    3)
+    1) track movement
+    2) control device
+    3) provide feedback
+
+Thing 9) Games
+5 properties:
+    1) Storage
+    2) Graphics
+    3) Music
+    4) Interaction
+    5) Connection
+3 things it can do:
+    1) entertain
+    2) engage
+    3) teach
+
+Thing 10) Nintendo
+5 properties:
+    1) Display
+    2) Storage
+    3) CPU
+    4) Controller
+    5) Games
+3 things it can do:
+    1) play games
+    2) connect to internet
+    3) buy games
  */
 
 /*
