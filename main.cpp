@@ -559,6 +559,46 @@ example:
         Brightness (double)
         width in cm (int)
         height in cm (int)
+
+    Thing 5) Display
+    5 properties: 
+        1) Pixels (int)
+        2) Power (float)
+        3) Brightness (double)
+        4) Width (int)
+        5) Height (int)
+    
+    Thing 6) Storage
+    5 properties: 
+        1) Capacity (int)
+        2) Power (float)
+        3) Speed (double)
+        4) Reliability (double)
+        5) Longevity (double)
+    
+    Thing 7) CPU
+    5 properties: 
+        1) Speed (float)
+        2) Power (float)
+        3) Operations (int)
+        4) Interfaces (std::string)
+        5) Cores (int)
+    
+    Thing 8) Controller
+    5 properties:
+        1) Buttons (int)
+        2) Joysticks (int)
+        3) Paddles (int)
+        4) Connections (std::string)
+        5) Interaction (std::string)
+    
+    Thing 9) Games
+    5 properties:
+        1) Storage (int)
+        2) Resolution (std::string)
+        3) SoundFX (std::string) 
+        4) Interaction (std::string)
+        5) Connection (std::string)
 */
 
 /*
