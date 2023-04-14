@@ -196,53 +196,6 @@ Part 1b - Step 2: Assignment
         c) pick properties that can eventually be represented with 
         'int float double bool char std::string'.
 
-Thing 1) House
-5 properties:
-    1) number of bedrooms
-    2) number of bathrooms
-    3) size of garage
-    4) number of floors
-    5) type of flooring
-3 things it can do:
-    1) protect family
-    2) place to sleep
-    3) clean yourself
-
-Thing 2) Computer
-5 properties:
-    1) amount of storage
-    2) amount of memory
-    3) size of screen
-    4) type of keyboard
-    5) operating system
-3 things it can do:
-    1) write programs
-    2) play games
-    3) do taxes
-
-Thing 3) Guitar
-5 properties:
-    1) number of strings
-    2) type of fretboard
-    3) type of wood
-    4) number of pickups
-    5) number of tone selectors
-3 things it can do:
-    1) play chords
-    2) play notes
-    3) rock out
-
-Thing 4) Movie
-5 properties:
-    1) number of actors
-    2) length of film
-    3) category of film
-    4) amount of profit
-    5) time to produce
-3 things it can do:
-    1) entertain people
-    2) charge to watch
-    3) tell a story
 */
 
 /*
@@ -317,35 +270,7 @@ example:
         Amount of Power consumed (milliwatt-hours) (float)
         Brightness (double)
         area in cm2 (int)
-        brand (std::string)
-
-    House:
-        number of bedrooms (int)
-        number of bathrooms (int)
-        size of garage (double)
-        number of floors (int)
-        type of flooring (std::string)
-
-    Computer:
-        amount of storage (int)
-        amount of memory (int)
-        size of screen (float)
-        type of keyboard (std::string)
-        operating system (std::string)
-
-    Guitar:
-        number of strings (int)
-        type of fretboard (std::string)
-        type of wood (std::string)
-        number of pickups (int)
-        number of tone selectors (int)
-
-    Movie:
-        number of actors (int)
-        length of film (double)
-        category of film (std::string)
-        amount of profit (double)
-        time to produce (double)
+        brand (std::string) 
 */
 
 /*
@@ -365,17 +290,6 @@ Define an object that is made of 5 sub-objects.
     These 5 sub-objects will not be defined using Primitives, but instead will be their own UDTs 
     you'll define these 5 sub-objects in Part 1d.
 
-Thing 10) Nintendo
-5 properties:
-    1) Display
-    2) Storage
-    3) CPU
-    4) Controller
-    5) Games
-3 things it can do:
-    1) play games
-    2) connect to internet
-    3) buy games
  */
 
  /*
@@ -462,78 +376,6 @@ example:
     You will need to provide 5 properties and 3 member functions of that Engine object in plain English.
     Remember to pick properties that can be represented with 'int float double bool char std::string'.
 
-
-Thing 5) Display
-5 properties: 
-    1) Pixels
-    2) Power
-    3) Brightness
-    4) Width
-    5) Height
-3 things it can do:
-    1) generate graphics
-    2) consume power
-    3) change brightness
-
-Thing 6) Storage
-5 properties: 
-    1) Capacity
-    2) Power
-    3) Speed
-    4) Reliability
-    5) Longevity
-3 things it can do:
-    1) read files
-    2) write files
-    3) copy files
-
-Thing 7) CPU
-5 properties: 
-    1) Speed
-    2) Power
-    3) Operations
-    4) Interfaces
-    5) Cores
-3 things it can do:
-    1) calculate
-    2) consume power
-    3) produce heat
-
-Thing 8) Controller
-5 properties:
-    1) Buttons
-    2) Joysticks
-    3) Paddles
-    4) Connections
-    5) Interaction
-3 things it can do:
-    1) track movement
-    2) control device
-    3) provide feedback
-
-Thing 9) Games
-5 properties:
-    1) Storage
-    2) Graphics
-    3) Music
-    4) Interaction
-    5) Connection
-3 things it can do:
-    1) entertain
-    2) engage
-    3) teach
-
-Thing 10) Nintendo
-5 properties:
-    1) Display
-    2) Storage
-    3) CPU
-    4) Controller
-    5) Games
-3 things it can do:
-    1) play games
-    2) connect to internet
-    3) buy games
  */
 
 /*
@@ -559,6 +401,62 @@ example:
         Brightness (double)
         width in cm (int)
         height in cm (int)
+
+
+*/
+
+/*
+=================
+Part 1d - Step 5: Commit
+=================
+Now that you've made changes to the code, make a commit!
+Be sure to make the commit message meaningful.
+*/
+
+/*
+===================
+Part 1d - Step 6: assignment
+===================
+You've just defined 10 UDTs!
+4 of them are unrelated (UDTs 1-4).
+5 of them form the sub-objects that make up the 10th UDT. 
+
+MOVE THEM to the space below this block comment and put them in numerical order 
+(1 - 10).
+    DO NOT COPY. 
+    CUT AND PASTE. 
+    I do not want to see 2 copies of your Plain-English UDTs.  
+    I only want to see the 10 UDTs written BELOW this block comment, in numerical order (1 - 10).
+    simply CUT and PASTE them in the space provided below:
+*/
+
+   Thing 1) House:
+        number of bedrooms (int)
+        number of bathrooms (int)
+        size of garage (double)
+        number of floors (int)
+        type of flooring (std::string)
+
+    Thing 2) Computer:
+        amount of storage (int)
+        amount of memory (int)
+        size of screen (float)
+        type of keyboard (std::string)
+        operating system (std::string)
+
+    Thing 3) Guitar:
+        number of strings (int)
+        type of fretboard (std::string)
+        type of wood (std::string)
+        number of pickups (int)
+        number of tone selectors (int)
+
+    Thing 4) Movie:
+        number of actors (int)
+        length of film (double)
+        category of film (std::string)
+        amount of profit (double)
+        time to produce (double)
 
     Thing 5) Display
     5 properties: 
@@ -599,37 +497,18 @@ example:
         3) SoundFX (std::string) 
         4) Interaction (std::string)
         5) Connection (std::string)
-*/
 
-/*
-=================
-Part 1d - Step 5: Commit
-=================
-Now that you've made changes to the code, make a commit!
-Be sure to make the commit message meaningful.
-*/
-
-/*
-===================
-Part 1d - Step 6: assignment
-===================
-You've just defined 10 UDTs!
-4 of them are unrelated (UDTs 1-4).
-5 of them form the sub-objects that make up the 10th UDT. 
-
-MOVE THEM to the space below this block comment and put them in numerical order 
-(1 - 10).
-    DO NOT COPY. 
-    CUT AND PASTE. 
-    I do not want to see 2 copies of your Plain-English UDTs.  
-    I only want to see the 10 UDTs written BELOW this block comment, in numerical order (1 - 10).
-    simply CUT and PASTE them in the space provided below:
-*/
-
-
-
-
-
+    Thing 10) Nintendo
+    5 properties:
+        1) Display
+        2) Storage
+        3) CPU
+        4) Controller
+        5) Games
+    3 things it can do:
+        1) play games
+        2) connect to internet
+        3) buy games
 
 
 
