@@ -480,6 +480,7 @@ MOVE THEM to the space below this block comment and put them in numerical order
     simply CUT and PASTE them in the space provided below:
 */
 
+/*
    Thing 1) House:
         number of bedrooms (int)
         number of bathrooms (int)
@@ -490,7 +491,9 @@ MOVE THEM to the space below this block comment and put them in numerical order
         1) protect family
         2) place to sleep
         3) clean yourself
+*/
 
+/*
     Thing 2) Computer:
         amount of storage (int)
         amount of memory (int)
@@ -501,7 +504,9 @@ MOVE THEM to the space below this block comment and put them in numerical order
         1) write programs
         2) play games
         3) do taxes
+*/
 
+/*
     Thing 3) Guitar:
         number of strings (int)
         type of fretboard (std::string)
@@ -512,7 +517,9 @@ MOVE THEM to the space below this block comment and put them in numerical order
         1) play chords
         2) play notes
         3) rock out
+*/
 
+/*
     Thing 4) Movie:
         number of actors (int)
         length of film (double)
@@ -523,7 +530,9 @@ MOVE THEM to the space below this block comment and put them in numerical order
         1) entertain people
         2) charge to watch
         3) tell a story
-            
+*/
+
+/*
     Thing 5) Display
     5 properties: 
         1) Pixels (int)
@@ -531,7 +540,9 @@ MOVE THEM to the space below this block comment and put them in numerical order
         3) Brightness (double)
         4) Width (int)
         5) Height (int)
-    
+*/
+
+/*
     Thing 6) Storage
     5 properties: 
         1) Capacity (int)
@@ -539,7 +550,9 @@ MOVE THEM to the space below this block comment and put them in numerical order
         3) Speed (double)
         4) Reliability (double)
         5) Longevity (double)
-    
+*/
+
+/*
     Thing 7) CPU
     5 properties: 
         1) Speed (float)
@@ -547,7 +560,9 @@ MOVE THEM to the space below this block comment and put them in numerical order
         3) Operations (int)
         4) Interfaces (std::string)
         5) Cores (int)
-    
+*/
+
+/*
     Thing 8) Controller
     5 properties:
         1) Buttons (int)
@@ -555,7 +570,9 @@ MOVE THEM to the space below this block comment and put them in numerical order
         3) Paddles (int)
         4) Connections (std::string)
         5) Interaction (std::string)
-    
+*/
+
+/*
     Thing 9) Games
     5 properties:
         1) Storage (int)
@@ -563,7 +580,9 @@ MOVE THEM to the space below this block comment and put them in numerical order
         3) SoundFX (std::string) 
         4) Interaction (std::string)
         5) Connection (std::string)
+*/
 
+/*
     Thing 10) Nintendo
     5 properties:
         1) Display
@@ -575,7 +594,7 @@ MOVE THEM to the space below this block comment and put them in numerical order
         1) play games
         2) connect to internet
         3) buy games
-
+*/
 
 
 /*
