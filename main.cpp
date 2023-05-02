@@ -486,6 +486,10 @@ MOVE THEM to the space below this block comment and put them in numerical order
         size of garage (double)
         number of floors (int)
         type of flooring (std::string)
+    3 things it can do:
+        1) protect family
+        2) place to sleep
+        3) clean yourself
 
     Thing 2) Computer:
         amount of storage (int)
@@ -493,6 +497,10 @@ MOVE THEM to the space below this block comment and put them in numerical order
         size of screen (float)
         type of keyboard (std::string)
         operating system (std::string)
+    3 things it can do:
+        1) write programs
+        2) play games
+        3) do taxes
 
     Thing 3) Guitar:
         number of strings (int)
@@ -500,6 +508,10 @@ MOVE THEM to the space below this block comment and put them in numerical order
         type of wood (std::string)
         number of pickups (int)
         number of tone selectors (int)
+    3 things it can do:
+        1) play chords
+        2) play notes
+        3) rock out
 
     Thing 4) Movie:
         number of actors (int)
@@ -507,7 +519,11 @@ MOVE THEM to the space below this block comment and put them in numerical order
         category of film (std::string)
         amount of profit (double)
         time to produce (double)
-
+    3 things it can do:
+        1) entertain people
+        2) charge to watch
+        3) tell a story
+            
     Thing 5) Display
     5 properties: 
         1) Pixels (int)
