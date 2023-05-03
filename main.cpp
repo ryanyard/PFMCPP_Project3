@@ -540,6 +540,10 @@ MOVE THEM to the space below this block comment and put them in numerical order
         3) Brightness (double)
         4) Width (int)
         5) Height (int)
+    3 things it can do:
+        1) show graphics
+        2) consume power
+        3) change brightness
 */
 
 /*
@@ -550,6 +554,10 @@ MOVE THEM to the space below this block comment and put them in numerical order
         3) Speed (double)
         4) Reliability (double)
         5) Longevity (double)
+    3 things it can do:
+        1) write data
+        2) read data
+        3) consume power
 */
 
 /*
@@ -560,6 +568,10 @@ MOVE THEM to the space below this block comment and put them in numerical order
         3) Operations (int)
         4) Interfaces (std::string)
         5) Cores (int)
+    3 things it can do:
+        1) run calculations
+        2) provide interfaces
+        3) consume power
 */
 
 /*
@@ -570,6 +582,10 @@ MOVE THEM to the space below this block comment and put them in numerical order
         3) Paddles (int)
         4) Connections (std::string)
         5) Interaction (std::string)
+    3 things it can do:
+        1) move sprites
+        2) provide interactivity
+        3) navigate interface
 */
 
 /*
@@ -580,6 +596,10 @@ MOVE THEM to the space below this block comment and put them in numerical order
         3) SoundFX (std::string) 
         4) Interaction (std::string)
         5) Connection (std::string)
+     3 things it can do:
+        1) entertain
+        2) present puzzles
+        3) provide rewards
 */
 
 /*
