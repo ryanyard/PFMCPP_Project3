@@ -683,6 +683,56 @@ struct CarWash  //This is the empty struct, below my plain-English UDT.
 Notice that the struct name 'CarWash' conforms with the Course Coding Standard, described in the Readme.MD
 */
 
+struct House
+{
+
+};
+
+struct Computer
+{
+
+};
+
+struct Guitar
+{
+
+};
+
+struct Movie
+{
+
+};
+
+struct Display
+{
+
+};
+
+struct Storage
+{
+
+};
+
+struct CPU
+{
+
+};
+
+struct Controller
+{
+
+};
+
+struct Games
+{
+
+};
+
+struct Nintendo
+{
+
+};
+
 /*
 =================
 Part 1e - Step 2: Commit
