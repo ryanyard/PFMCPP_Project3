@@ -945,6 +945,198 @@ struct CarWash
     //    - charge customer
     //    - detail the car interior
 };
+
+struct House
+{
+    //5 properties
+    //    number of bedrooms (int)
+    int numBedrooms = 3;
+    //    number of bathrooms (int)
+    int numBathrooms = 2;
+    //    size of garage (double)
+    double garageSize = 200.0;
+    //    number of floors (int)
+    int numFloors = 1;
+    //    type of flooring (std::string)
+    std::string flooringType = "wood";
+    //3 things it can do:
+    //    1) protect family
+    //    2) place to sleep
+    //    3) clean yourself
+};
+
+struct Computer
+{
+    //5 properties
+    //    amount of storage (int)
+    int storageAmount = 20;
+    //    amount of memory (int)
+    int memoryAmount = 128;
+    //    size of screen (float)
+    float screenSize = 16.0f;
+    //    type of keyboard (std::string)
+    std::string keyboardType = "US";
+    //    operating system (std::string)
+    std::string operatingSystem = "Linux";
+    //3 things it can do:
+    //    1) write programs
+    //    2) play games
+    //    3) do taxes
+};
+
+struct Guitar
+{
+    //5 properties
+    //    number of strings (int)
+    int numStrings = 5;
+    //    type of fretboard (std::string)
+    std::string fretboardType = "Rosewood";
+    //    type of wood (std::string)
+    std::string woodType = "Maple";
+    //    number of pickups (int)
+    int numPickups = 2;
+    //    number of tone selectors (int)
+    int numSelectors = 3;
+    //3 things it can do:
+    //    1) play chords
+    //    2) play notes
+    //    3) rock out
+};
+
+struct Movie
+{
+    //5 properties
+    //    number of actors (int)
+    int numActors = 20;
+    //    length of film (double)
+    double filmLength = 200;
+    //    category of film (std::string)
+    std::string filmCategory = "Sci-Fi";
+    //    amount of profit (double)
+    double profit = 200.0;
+    //    time to produce (double)
+    double productionTime = 400.0;
+    //3 things it can do:
+    //    1) entertain people
+    //    2) charge to watch
+    //    3) tell a story
+};
+
+struct Display
+{
+    //5 properties: 
+    //    1) Pixels (int)
+    int numPixels = 6000;
+    //    2) Power (float)
+    int powerConsumption = 12.0f;
+    //    3) Brightness (double)
+    int screenBrightness = 40.0;
+    //    4) Width (int)
+    int screenWidth = 16;
+    //    5) Height (int)
+    int screenHeight = 9;
+    //3 things it can do:
+    //    1) show graphics
+    //    2) consume power
+    //    3) change brightness
+};
+
+struct Storage
+{
+    //5 properties: 
+    //    1) Capacity (int)
+    int capacity = 128;
+    //    2) Power (float)
+    int powerConsumption = 14.0f;
+    //    3) Speed (double)
+    int speed = 40.0;
+    //    4) Reliability (double)
+    double reliability = 99.999;
+    //    5) Longevity (double)
+    double longevity = 99.999;
+    //3 things it can do:
+    //    1) write data
+    //    2) read data
+    //    3) consume power
+};
+
+struct CPU
+{
+    //5 properties: 
+    //    1) Speed (float)
+    float speed = 5.9f;
+    //    2) Power (float)
+    float powerConsumption = 12.0f;
+    //    3) Operations (int)
+    int numOperations = 5000;
+    //    4) Interfaces (std::string)
+    std::string interfaceType = "AM5";
+    //    5) Cores (int)
+    int coreCount = 64;
+    //3 things it can do:
+    //    1) run calculations
+    //    2) provide interfaces
+    //    3) consume power
+};
+
+struct Controller
+{
+    //5 properties:
+    //    1) Buttons (int)
+    int numButtons = 6;
+    //    2) Joysticks (int)
+    int numJoysticks = 2;
+    //    3) Paddles (int)
+    int numPaddles = 4;
+    //    4) Connections (std::string)
+    std::string connectionType = "bluetooth";
+    //    5) Interaction (std::string)
+    std::string interactionType = "Motion";
+    //3 things it can do:
+    //    1) move sprites
+    //    2) provide interactivity
+    //    3) navigate interface
+};
+
+struct Games
+{
+    //5 properties:
+    //    1) Storage (int)
+    int storageSize = 64;
+    //    2) Resolution (std::string)
+    std::string resolution = "HiDef"; 
+    //    3) SoundFX (std::string) 
+    std::string soundFX = "Surround";
+    //    4) Interaction (std::string)
+    std::string interaction = "Multi-Player";
+    //    5) Connection (std::string)
+    std::string connectionType = "WiFi";
+    //3 things it can do:
+    //    1) entertain
+    //    2) present puzzles
+    //    3) provide rewards
+};
+
+struct Nintendo
+{
+    //5 properties:
+    //    1) Display (std::string)
+    std::string displayType = "OLED";
+    //    2) Storage (int)
+    int storageCapacity = 64;
+    //    3) CPU (float)
+    float cpuSpeed = 3.2f;
+    //    4) Controller (int)
+    int numController = 4;
+    //    5) Games (std::string)
+    std::string gameType = "Downloadable";
+    //3 things it can do:
+    //    1) play games
+    //    2) connect to internet
+    //    3) buy games
+};
+
+
 /*
 
 =================
