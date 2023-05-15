@@ -768,6 +768,147 @@ struct CarWash
     //    - detail the car interior
 };
 
+
+struct House
+{
+    //5 properties
+    //    number of bedrooms (int)
+    //    number of bathrooms (int)
+    //    size of garage (double)
+    //    number of floors (int)
+    //    type of flooring (std::string)
+    //3 things it can do:
+    //    1) protect family
+    //    2) place to sleep
+    //    3) clean yourself
+};
+
+struct Computer
+{
+    //5 properties
+    //    amount of storage (int)
+    //    amount of memory (int)
+    //    size of screen (float)
+    //    type of keyboard (std::string)
+    //    operating system (std::string)
+    //3 things it can do:
+    //    1) write programs
+    //    2) play games
+    //    3) do taxes
+};
+
+struct Guitar
+{
+    //5 properties
+    //    number of strings (int)
+    //    type of fretboard (std::string)
+    //    type of wood (std::string)
+    //    number of pickups (int)
+    //    number of tone selectors (int)
+    //3 things it can do:
+    //    1) play chords
+    //    2) play notes
+    //    3) rock out
+};
+
+struct Movie
+{
+    //5 properties
+    //    number of actors (int)
+    //    length of film (double)
+    //    category of film (std::string)
+    //    amount of profit (double)
+    //    time to produce (double)
+    //3 things it can do:
+    //    1) entertain people
+    //    2) charge to watch
+    //    3) tell a story
+};
+
+struct Display
+{
+    //5 properties: 
+    //    1) Pixels (int)
+    //    2) Power (float)
+    //    3) Brightness (double)
+    //    4) Width (int)
+    //    5) Height (int)
+    //3 things it can do:
+    //    1) show graphics
+    //    2) consume power
+    //    3) change brightness
+};
+
+struct Storage
+{
+    //5 properties: 
+    //    1) Capacity (int)
+    //    2) Power (float)
+    //    3) Speed (double)
+    //    4) Reliability (double)
+    //    5) Longevity (double)
+    //3 things it can do:
+    //    1) write data
+    //    2) read data
+    //    3) consume power
+};
+
+struct CPU
+{
+    //5 properties: 
+    //    1) Speed (float)
+    //    2) Power (float)
+    //    3) Operations (int)
+    //    4) Interfaces (std::string)
+    //    5) Cores (int)
+    //3 things it can do:
+    //    1) run calculations
+    //    2) provide interfaces
+    //    3) consume power
+};
+
+struct Controller
+{
+    //5 properties:
+    //    1) Buttons (int)
+    //    2) Joysticks (int)
+    //    3) Paddles (int)
+    //    4) Connections (std::string)
+    //    5) Interaction (std::string)
+    //3 things it can do:
+    //    1) move sprites
+    //    2) provide interactivity
+    //    3) navigate interface
+};
+
+struct Games
+{
+    //5 properties:
+    //    1) Storage (int)
+    //    2) Resolution (std::string)
+    //    3) SoundFX (std::string) 
+    //    4) Interaction (std::string)
+    //    5) Connection (std::string)
+    //3 things it can do:
+    //    1) entertain
+    //    2) present puzzles
+    //    3) provide rewards
+};
+
+struct Nintendo
+{
+    //5 properties:
+    //    1) Display
+    //    2) Storage
+    //    3) CPU
+    //    4) Controller
+    //    5) Games
+    //3 things it can do:
+    //    1) play games
+    //    2) connect to internet
+    //    3) buy games
+};
+
 /*
 =================
 Part 1e - Step 4: Commit
