@@ -83,51 +83,51 @@ Main Object: Car Interior
         Name 4 nouns you'll find on the [Sub Object]
             1) paddle shifters
             2) 'cruise control' controls
-            3) 
-            4) 
+            3) horn
+            4) turn signal
         Name 2 actions that the [Sub Object] can do:
             1) adjust cruise control settings.
-            2)
+            2) change gears
         
     Sub Object: Instrument Cluster
         Name 4 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
-            4)
+            1) gear indicator
+            2) tachometer
+            3) speed indictor
+            4) temperature sensor
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1) view current gear
+            2) view RPM
+            3) view speed
     
     Sub Object: Environment Controls
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1) air conditioning controls
+            2) seat warmer
+            3) defroster
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1) set air temperature
+            2) set seat temerature
+            3) defrost windows
 
     Sub Object: Infotainment System
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1) sound system
+            2) navigation screen
+            3) input selector
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1) choose radio station
+            2) get directions
+            3) change between stereo, and CD
 
     Sub Object: Seat 
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1) leather
+            2) bolsters
+            3) adjustment controls
         Name 2 actions that the [Sub Object] can do:
-            1)
-            2)
+            1) change seating position
+            2) not slide around
 */
 
 /*
@@ -196,54 +196,57 @@ Part 1b - Step 2: Assignment
         c) pick properties that can eventually be represented with 
         'int float double bool char std::string'.
 
-Thing 1)
+Thing 1) House
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of bedrooms
+    2) number of bathrooms
+    3) size of garage
+    4) number of floors
+    5) type of flooring
 3 things it can do:
-    1)
-    2)
-    3)
+    1) protect family
+    2) place to sleep
+    3) clean yourself
 
-Thing 2)
+Thing 2) Computer
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) amount of storage
+    2) amount of memory
+    3) size of screen
+    4) type of keyboard
+    5) operating system
 3 things it can do:
-    1)
-    2)
-    3)
+    1) write programs
+    2) play games
+    3) do taxes
 
-Thing 3)
+Thing 3) Guitar
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of strings
+    2) type of fretboard
+    3) type of wood
+    4) number of pickups
+    5) number of tone selectors
 3 things it can do:
-    1)
-    2)
-    3)
+    1) play chords
+    2) play notes
+    3) rock out
 
-Thing 4)
+Thing 4) Movie
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of actors
+    2) length of film
+    3) category of film
+    4) amount of profit
+    5) time to produce
 3 things it can do:
-    1)
-    2)
-    3)
+    1) entertain people
+    2) charge to watch
+    3) tell a story
+
 */
+
+
 
 /*
 =================
@@ -317,7 +320,7 @@ example:
         Amount of Power consumed (milliwatt-hours) (float)
         Brightness (double)
         area in cm2 (int)
-        brand (std::string)
+        brand (std::string) 
 */
 
 /*
@@ -337,17 +340,6 @@ Define an object that is made of 5 sub-objects.
     These 5 sub-objects will not be defined using Primitives, but instead will be their own UDTs 
     you'll define these 5 sub-objects in Part 1d.
 
-Thing 10)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
  */
 
  /*
@@ -434,65 +426,6 @@ example:
     You will need to provide 5 properties and 3 member functions of that Engine object in plain English.
     Remember to pick properties that can be represented with 'int float double bool char std::string'.
 
-Thing 5)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 6)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 7)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 8)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 9)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
  */
 
 /*
@@ -518,6 +451,8 @@ example:
         Brightness (double)
         width in cm (int)
         height in cm (int)
+
+
 */
 
 /*
@@ -545,11 +480,141 @@ MOVE THEM to the space below this block comment and put them in numerical order
     simply CUT and PASTE them in the space provided below:
 */
 
+/*
+   Thing 1) House:
+        number of bedrooms (int)
+        number of bathrooms (int)
+        size of garage (double)
+        number of floors (int)
+        type of flooring (std::string)
+    3 things it can do:
+        1) protect family
+        2) place to sleep
+        3) clean yourself
+*/
 
+/*
+    Thing 2) Computer:
+        amount of storage (int)
+        amount of memory (int)
+        size of screen (float)
+        type of keyboard (std::string)
+        operating system (std::string)
+    3 things it can do:
+        1) write programs
+        2) play games
+        3) do taxes
+*/
 
+/*
+    Thing 3) Guitar:
+        number of strings (int)
+        type of fretboard (std::string)
+        type of wood (std::string)
+        number of pickups (int)
+        number of tone selectors (int)
+    3 things it can do:
+        1) play chords
+        2) play notes
+        3) rock out
+*/
 
+/*
+    Thing 4) Movie:
+        number of actors (int)
+        length of film (double)
+        category of film (std::string)
+        amount of profit (double)
+        time to produce (double)
+    3 things it can do:
+        1) entertain people
+        2) charge to watch
+        3) tell a story
+*/
 
+/*
+    Thing 5) Display
+    5 properties: 
+        1) Pixels (int)
+        2) Power (float)
+        3) Brightness (double)
+        4) Width (int)
+        5) Height (int)
+    3 things it can do:
+        1) show graphics
+        2) consume power
+        3) change brightness
+*/
 
+/*
+    Thing 6) Storage
+    5 properties: 
+        1) Capacity (int)
+        2) Power (float)
+        3) Speed (double)
+        4) Reliability (double)
+        5) Longevity (double)
+    3 things it can do:
+        1) write data
+        2) read data
+        3) consume power
+*/
+
+/*
+    Thing 7) CPU
+    5 properties: 
+        1) Speed (float)
+        2) Power (float)
+        3) Operations (int)
+        4) Interfaces (std::string)
+        5) Cores (int)
+    3 things it can do:
+        1) run calculations
+        2) provide interfaces
+        3) consume power
+*/
+
+/*
+    Thing 8) Controller
+    5 properties:
+        1) Buttons (int)
+        2) Joysticks (int)
+        3) Paddles (int)
+        4) Connections (std::string)
+        5) Interaction (std::string)
+    3 things it can do:
+        1) move sprites
+        2) provide interactivity
+        3) navigate interface
+*/
+
+/*
+    Thing 9) Games
+    5 properties:
+        1) Storage (int)
+        2) Resolution (std::string)
+        3) SoundFX (std::string) 
+        4) Interaction (std::string)
+        5) Connection (std::string)
+     3 things it can do:
+        1) entertain
+        2) present puzzles
+        3) provide rewards
+*/
+
+/*
+    Thing 10) Nintendo
+    5 properties:
+        1) Display
+        2) Storage
+        3) CPU
+        4) Controller
+        5) Games
+    3 things it can do:
+        1) play games
+        2) connect to internet
+        3) buy games
+*/
 
 
 /*
@@ -618,6 +683,56 @@ struct CarWash  //This is the empty struct, below my plain-English UDT.
 Notice that the struct name 'CarWash' conforms with the Course Coding Standard, described in the Readme.MD
 */
 
+struct House
+{
+
+};
+
+struct Computer
+{
+
+};
+
+struct Guitar
+{
+
+};
+
+struct Movie
+{
+
+};
+
+struct Display
+{
+
+};
+
+struct Storage
+{
+
+};
+
+struct CPU
+{
+
+};
+
+struct Controller
+{
+
+};
+
+struct Games
+{
+
+};
+
+struct Nintendo
+{
+
+};
+
 /*
 =================
 Part 1e - Step 2: Commit
@@ -651,6 +766,147 @@ struct CarWash
     //    - wash and wax car
     //    - charge customer
     //    - detail the car interior
+};
+
+
+struct House
+{
+    //5 properties
+    //    number of bedrooms (int)
+    //    number of bathrooms (int)
+    //    size of garage (double)
+    //    number of floors (int)
+    //    type of flooring (std::string)
+    //3 things it can do:
+    //    1) protect family
+    //    2) place to sleep
+    //    3) clean yourself
+};
+
+struct Computer
+{
+    //5 properties
+    //    amount of storage (int)
+    //    amount of memory (int)
+    //    size of screen (float)
+    //    type of keyboard (std::string)
+    //    operating system (std::string)
+    //3 things it can do:
+    //    1) write programs
+    //    2) play games
+    //    3) do taxes
+};
+
+struct Guitar
+{
+    //5 properties
+    //    number of strings (int)
+    //    type of fretboard (std::string)
+    //    type of wood (std::string)
+    //    number of pickups (int)
+    //    number of tone selectors (int)
+    //3 things it can do:
+    //    1) play chords
+    //    2) play notes
+    //    3) rock out
+};
+
+struct Movie
+{
+    //5 properties
+    //    number of actors (int)
+    //    length of film (double)
+    //    category of film (std::string)
+    //    amount of profit (double)
+    //    time to produce (double)
+    //3 things it can do:
+    //    1) entertain people
+    //    2) charge to watch
+    //    3) tell a story
+};
+
+struct Display
+{
+    //5 properties: 
+    //    1) Pixels (int)
+    //    2) Power (float)
+    //    3) Brightness (double)
+    //    4) Width (int)
+    //    5) Height (int)
+    //3 things it can do:
+    //    1) show graphics
+    //    2) consume power
+    //    3) change brightness
+};
+
+struct Storage
+{
+    //5 properties: 
+    //    1) Capacity (int)
+    //    2) Power (float)
+    //    3) Speed (double)
+    //    4) Reliability (double)
+    //    5) Longevity (double)
+    //3 things it can do:
+    //    1) write data
+    //    2) read data
+    //    3) consume power
+};
+
+struct CPU
+{
+    //5 properties: 
+    //    1) Speed (float)
+    //    2) Power (float)
+    //    3) Operations (int)
+    //    4) Interfaces (std::string)
+    //    5) Cores (int)
+    //3 things it can do:
+    //    1) run calculations
+    //    2) provide interfaces
+    //    3) consume power
+};
+
+struct Controller
+{
+    //5 properties:
+    //    1) Buttons (int)
+    //    2) Joysticks (int)
+    //    3) Paddles (int)
+    //    4) Connections (std::string)
+    //    5) Interaction (std::string)
+    //3 things it can do:
+    //    1) move sprites
+    //    2) provide interactivity
+    //    3) navigate interface
+};
+
+struct Games
+{
+    //5 properties:
+    //    1) Storage (int)
+    //    2) Resolution (std::string)
+    //    3) SoundFX (std::string) 
+    //    4) Interaction (std::string)
+    //    5) Connection (std::string)
+    //3 things it can do:
+    //    1) entertain
+    //    2) present puzzles
+    //    3) provide rewards
+};
+
+struct Nintendo
+{
+    //5 properties:
+    //    1) Display
+    //    2) Storage
+    //    3) CPU
+    //    4) Controller
+    //    5) Games
+    //3 things it can do:
+    //    1) play games
+    //    2) connect to internet
+    //    3) buy games
 };
 
 /*
@@ -689,6 +945,198 @@ struct CarWash
     //    - charge customer
     //    - detail the car interior
 };
+
+struct House
+{
+    //5 properties
+    //    number of bedrooms (int)
+    int numBedrooms = 3;
+    //    number of bathrooms (int)
+    int numBathrooms = 2;
+    //    size of garage (double)
+    double garageSize = 200.0;
+    //    number of floors (int)
+    int numFloors = 1;
+    //    type of flooring (std::string)
+    std::string flooringType = "wood";
+    //3 things it can do:
+    //    1) protect family
+    //    2) place to sleep
+    //    3) clean yourself
+};
+
+struct Computer
+{
+    //5 properties
+    //    amount of storage (int)
+    int storageAmount = 20;
+    //    amount of memory (int)
+    int memoryAmount = 128;
+    //    size of screen (float)
+    float screenSize = 16.0f;
+    //    type of keyboard (std::string)
+    std::string keyboardType = "US";
+    //    operating system (std::string)
+    std::string operatingSystem = "Linux";
+    //3 things it can do:
+    //    1) write programs
+    //    2) play games
+    //    3) do taxes
+};
+
+struct Guitar
+{
+    //5 properties
+    //    number of strings (int)
+    int numStrings = 5;
+    //    type of fretboard (std::string)
+    std::string fretboardType = "Rosewood";
+    //    type of wood (std::string)
+    std::string woodType = "Maple";
+    //    number of pickups (int)
+    int numPickups = 2;
+    //    number of tone selectors (int)
+    int numSelectors = 3;
+    //3 things it can do:
+    //    1) play chords
+    //    2) play notes
+    //    3) rock out
+};
+
+struct Movie
+{
+    //5 properties
+    //    number of actors (int)
+    int numActors = 20;
+    //    length of film (double)
+    double filmLength = 200;
+    //    category of film (std::string)
+    std::string filmCategory = "Sci-Fi";
+    //    amount of profit (double)
+    double profit = 200.0;
+    //    time to produce (double)
+    double productionTime = 400.0;
+    //3 things it can do:
+    //    1) entertain people
+    //    2) charge to watch
+    //    3) tell a story
+};
+
+struct Display
+{
+    //5 properties: 
+    //    1) Pixels (int)
+    int numPixels = 6000;
+    //    2) Power (float)
+    int powerConsumption = 12.0f;
+    //    3) Brightness (double)
+    int screenBrightness = 40.0;
+    //    4) Width (int)
+    int screenWidth = 16;
+    //    5) Height (int)
+    int screenHeight = 9;
+    //3 things it can do:
+    //    1) show graphics
+    //    2) consume power
+    //    3) change brightness
+};
+
+struct Storage
+{
+    //5 properties: 
+    //    1) Capacity (int)
+    int capacity = 128;
+    //    2) Power (float)
+    int powerConsumption = 14.0f;
+    //    3) Speed (double)
+    int speed = 40.0;
+    //    4) Reliability (double)
+    double reliability = 99.999;
+    //    5) Longevity (double)
+    double longevity = 99.999;
+    //3 things it can do:
+    //    1) write data
+    //    2) read data
+    //    3) consume power
+};
+
+struct CPU
+{
+    //5 properties: 
+    //    1) Speed (float)
+    float speed = 5.9f;
+    //    2) Power (float)
+    float powerConsumption = 12.0f;
+    //    3) Operations (int)
+    int numOperations = 5000;
+    //    4) Interfaces (std::string)
+    std::string interfaceType = "AM5";
+    //    5) Cores (int)
+    int coreCount = 64;
+    //3 things it can do:
+    //    1) run calculations
+    //    2) provide interfaces
+    //    3) consume power
+};
+
+struct Controller
+{
+    //5 properties:
+    //    1) Buttons (int)
+    int numButtons = 6;
+    //    2) Joysticks (int)
+    int numJoysticks = 2;
+    //    3) Paddles (int)
+    int numPaddles = 4;
+    //    4) Connections (std::string)
+    std::string connectionType = "bluetooth";
+    //    5) Interaction (std::string)
+    std::string interactionType = "Motion";
+    //3 things it can do:
+    //    1) move sprites
+    //    2) provide interactivity
+    //    3) navigate interface
+};
+
+struct Games
+{
+    //5 properties:
+    //    1) Storage (int)
+    int storageSize = 64;
+    //    2) Resolution (std::string)
+    std::string resolution = "HiDef"; 
+    //    3) SoundFX (std::string) 
+    std::string soundFX = "Surround";
+    //    4) Interaction (std::string)
+    std::string interaction = "Multi-Player";
+    //    5) Connection (std::string)
+    std::string connectionType = "WiFi";
+    //3 things it can do:
+    //    1) entertain
+    //    2) present puzzles
+    //    3) provide rewards
+};
+
+struct Nintendo
+{
+    //5 properties:
+    //    1) Display (std::string)
+    std::string displayType = "OLED";
+    //    2) Storage (int)
+    int storageCapacity = 64;
+    //    3) CPU (float)
+    float cpuSpeed = 3.2f;
+    //    4) Controller (int)
+    int numController = 4;
+    //    5) Games (std::string)
+    std::string gameType = "Downloadable";
+    //3 things it can do:
+    //    1) play games
+    //    2) connect to internet
+    //    3) buy games
+};
+
+
 /*
 
 =================
